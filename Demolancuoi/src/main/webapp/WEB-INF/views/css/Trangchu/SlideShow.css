@@ -1,0 +1,47 @@
+*{
+    margin:0;
+}
+
+.slideshow{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 5px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+.chuyen-slide{
+    width: 5000px;
+    transition: all 1s;
+}
+
+.chuyen-slide img{
+    width: 1000px;
+    height: 400px;
+    float: left;
+}
+
+.dieuhuong{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top:50%;
+    padding-left: 20px;
+    display: none;
+}
+
+.slideshow:hover .dieuhuong{
+    display: block;
+}
+
+.prev:hover, .next:hover {
+    background: rgba(0,0,0,0.8);
+}
+
+.dieuhuong i:last-child{
+    position: relative;
+    left: 870px;
+}
